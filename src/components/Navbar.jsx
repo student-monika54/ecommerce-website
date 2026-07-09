@@ -10,6 +10,9 @@ function Navbar() {
         <nav className="navbar__links" aria-label="Main navigation">
           <a href="/">Home</a>
           <a href="/products">Products</a>
+          <a className="navbar__login" href="/login">
+            Login
+          </a>
         </nav>
       </div>
     </header>
